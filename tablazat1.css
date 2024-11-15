@@ -1,0 +1,24 @@
+table,td,th{
+    border:1px solid gray
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    min-width: 500px;
+}
+thead tr{
+    background-color: antiquewhite;
+}
+th{
+    color:aqua ;
+}
+tbody tr:nth-child(odd){
+    background-color: blue;
+}
+.reszponzivtablazat{
+    overflow-x: auto;
+}
+.osszevont{
+    background-color: blueviolet;
+}
